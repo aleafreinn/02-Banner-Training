@@ -1,0 +1,153 @@
+.mainBanner {
+    height: 936px;
+    width: 1611px;
+    position: relative;
+    margin: 30px auto;
+    background-color: #1E1F2F;
+    overflow: hidden;
+}
+
+.bgBoxStyling1 {
+    border: 60px solid #2D2F48; /*border size will include as a part of box dimensions due to box-sizing in ID*/
+    top: 385px;
+    left: 691px;
+}
+
+.bgBoxStyling2 {
+    border: 60px solid #48596D;
+    top: -179px;
+    left: 1169px;
+}
+
+.miniTitleContainer {
+    position: absolute;
+    display: flex;
+    top: 125px;
+    left: 130px;
+}
+
+.miniTitleContainer p{
+    font-family: 'Bebas Neue';
+    font-size: 96px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.miniTitleLogo {
+    box-sizing: content-box;
+    margin-right: 40px;
+}
+
+.titleContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    top: 301px;
+    left: 130px;
+    font-family: 'Bebas Neue';
+    font-size: 156px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 93.5%;
+    
+}
+
+.rectMainBox {
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    width: 504px;
+    height: 618px;
+    border: 60px solid #FFFFFF;
+    top: 166px;
+    left: 957px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 79px 72px;
+    justify-content: space-between;
+}
+
+.redBox {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    box-sizing: border-box;
+    width: 240px;
+    height: 240px;
+    border: 40px solid #E82C4F;
+}
+
+.miniShapes {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border: 20px solid #FFFFFF;
+}
+
+.detailsContainer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 781px;
+    left: 130px;
+    width: 624px;
+    height: 64px;
+    flex-direction: row;
+}
+
+.subDetailsContainer {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 280px;
+    gap: 20px;
+    font-family: 'Bebas Neue';
+    font-size: 64px;
+    letter-spacing:  7px;
+    color: #FFFFFF;
+}
+
+#backgroundBoxPattern {
+    box-sizing: border-box;
+    position: absolute;
+    width: 558px;
+    height: 644px;
+}
+
+#miniLogoWhite {
+    background-color: #FFFFFF;
+    width: 31.06px;
+    height: 27.42px;
+}
+
+#miniLogoRed {
+    background-color: #E82C4F;
+    padding: 4px 16px;
+    margin-left: 31.06px;
+    font-family: 'Made Tommy';
+    font-size: 48px;
+    color:#FFFFFF;
+}
+
+#blueBox {
+    border-color: #3256A1;
+}
+
+#whiteCircle {
+    border-radius: 40px;
+}
+
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./assets/BebasNeue-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Made Tommy';
+    src: url('./assets/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf');
+}
